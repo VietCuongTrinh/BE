@@ -1,0 +1,18 @@
+Table 3 - Performance data of our BE scheme
+
+
+Columns:
+Number_of_users_and_groups | Encryption_time_ms | Partial_Decryption_time_ms | Collaborative_Decryption_time_ms
+
+50_users_5_per_group_4_groups | 3 | 2 | 1
+60_users_6_per_group_4_groups | 4 | 3 | 1
+70_users_7_per_group_4_groups | 5 | 3 | 1
+80_users_8_per_group_4_groups | 7 | 5 | 1
+90_users_10_per_group_4_groups | 9 | 5 | 1
+
+Experimental protocol:
+- Each parameter setting was performed 30 times.
+- Reported values in the manuscript are averages over the 30 runs.
+- Implementation: OpenSSL, secp256r1.
+- Platform: Microsoft Windows 11 Pro 64-bit, Intel Core i5-12400 (2.50 GHz, 6 cores, 12 threads), 16 GB RAM.
+
