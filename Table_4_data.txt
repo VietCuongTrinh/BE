@@ -1,0 +1,17 @@
+Table 4 - Performance data of Le et al. [17] scheme
+
+Columns:
+Number_of_users_groups_threshold | Encryption_time_ms | Partial_Decryption_time_ms | Collaborative_Decryption_time_ms
+
+50_users_threshold_5_4_groups | 4 | 15 | 2
+60_users_threshold_6_4_groups | 5 | 25 | 2
+70_users_threshold_7_4_groups | 5 | 32 | 4
+80_users_threshold_8_4_groups | 8 | 45 | 4
+90_users_threshold_10_4_groups | 11 | 59 | 6
+
+Experimental protocol:
+- Each parameter setting was performed 30 times.
+- Reported values in the manuscript are averages over the 30 runs.
+- Implementation: RELIC Toolkit, BLS12-381 pairing-friendly curve.
+- Platform: Microsoft Windows 11 Pro 64-bit, Intel Core i5-12400 (2.50 GHz, 6 cores, 12 threads), 16 GB RAM.
+
